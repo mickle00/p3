@@ -35,6 +35,7 @@ public class DateDriver {
                     Short.parseShort(args[2]));
         }
         
+        System.out.println("Test new code");
         System.out.printf("The date is: %s%n", currentDate);
         System.out.printf("The day before is: %s%n", 
                 currentDate.getYesterday(currentDate));
